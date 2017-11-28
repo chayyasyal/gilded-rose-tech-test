@@ -16,7 +16,7 @@ The idea is not to re-write the code from scratch, but rather to practice design
 
 ## Technologies used
 1. Ruby
-2. rspec; testing framework
+2. RSpec; testing framework
 
 ## Methodology used
 

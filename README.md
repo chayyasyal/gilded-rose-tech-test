@@ -5,7 +5,7 @@ and then refactor it so that it successfully runs and passes.
 We are able to do this task in whatever computer language we want to do.
 For this task, I have decided to refactor and test in Ruby, because it is a
 computer language that I want to become more confident in.
-Time limit: 1030 - 1700
+Time limit: 1030 - 1630
 
 ## Aims and about task
 

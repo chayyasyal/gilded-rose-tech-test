@@ -1,16 +1,25 @@
+require 'spec_helper'
+require 'item'
+
 describe Item do
-  describe '#name' do
-    it 'has the name of item being sold' do
+  name = 'fixme'
+  sell_in = 10
+  quality = 5
+  let(:item) { Item.new(name, sell_in, quality) }
+
+  describe '#new' do
+    it 'is the name of item being sold' do
+      expect(item.name).to eq 'fixme'
     end
   end
 
-  describe '#sell_in' do
-    it 'tells us how many days are left until item is sold' do
-    end
+  # sell_in
+  it 'tells us how many days are left for the item to be sold' do
+    expect(item.sell_in).to eq 10
   end
 
-  describe '#quality' do
-    it 'tells us how valuable an item is' do
-    end
+  # quality'
+  it 'tells us how valuable an item is' do
+    expect(item.quality).to eq 5
   end
 end

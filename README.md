@@ -34,10 +34,14 @@ I listed three main aims for today's tech test and I believe that I have achieve
 
 `````
 1. To use Ruby to refactor code - was successfully achieved
-2. Writing some unit tests myself - after a lot of diagramming I wrote unit tests to see if the Item class (both .rb and spec files) would run and if the current tests in Gilded Rose would too. At this point, I currently have five passing tests.
+2. Writing some unit tests myself - after a lot of diagramming I wrote unit tests to see if the Item class (both .rb and spec files) would run and if the current tests in Gilded Rose would too.
 3. Deliberate practice, improve skills as designing test cases and refactoring - I believe that I achieved some of it. I would have liked to have refactored more code and this is the area where I wished I had worked faster, been more confident and resolved more issues within the code.
 `````
-Overall, I am pleased with my attempt to refactor Gilded Rose in Ruby. If I had more time, I would have tried to refactor the code around Aged Brie and bought item quality numbers to above 0 (some of them are negative numbers). 
+
+Other learnings from today include: make smaller classes/objects and test those, keep SOLID principles in mind, diagram what's in the code before refactoring begins and to focus on quality over quantity of code. After today's test, I have realised the importance of producing well designed tests that pass over speeding through the test in an attempt to fix or complete the task at hand. 
+
+Overall, I am pleased with my attempt to refactor Gilded Rose in Ruby - I currently have five passing tests.
+If I had more time, I would have liked to refactor the code around Aged Brie and bought item quality numbers to above 0 (some of them are negative numbers). 
 
 ## Pre-provided Documentation
 1. Article ["Writing Good Tests for the Gilded Rose Kata"](http://coding-is-like-cooking.info/2013/03/writing-good-tests-for-the-gilded-rose-kata/) about how you could use this kata in a [coding dojo](https://leanpub.com/codingdojohandbook)

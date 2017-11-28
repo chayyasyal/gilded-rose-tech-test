@@ -13,13 +13,15 @@ describe Item do
     end
   end
 
-  # sell_in
   it 'tells us how many days are left for the item to be sold' do
     expect(item.sell_in).to eq 10
   end
 
-  # quality'
   it 'tells us how valuable an item is' do
     expect(item.quality).to eq 5
+  end
+
+  it 'places all attributes of an item into a string' do
+    expect(item.to_s).to eq 'fixme, 10, 5'
   end
 end

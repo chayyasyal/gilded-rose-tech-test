@@ -1,3 +1,5 @@
+require 'spec_helper'
+require 'item.rb'
 require File.join(File.dirname(__FILE__), '../lib/gilded_rose')
 
 describe GildedRose do

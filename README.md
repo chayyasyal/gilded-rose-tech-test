@@ -19,8 +19,15 @@ The idea is not to re-write the code from scratch, but rather to practice design
 2. RSpec; testing framework
 
 ## Methodology used
+1. Diagramminng
+2. Use of SOLID principles
+3. Isolation and application of single responsibility principle
 
 ## Reflection on task
+What became apparent was that there are two classes in this task: Items and Gilded Rose.
+However, when first encountering the code, I diagrammed what was being presented to me and saw that
+the Items class had many responsibilities. I set about organising the files into a clearer structure and
+then gradually began isolating the responsibilities in the Items class so that I could see which ones actually belonged to Items.
 
 ## Conclusion
 
